@@ -1,0 +1,269 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    flex-wrap: nowrap;
+}
+
+body{
+    background: url(../img/fundo.png) repeat-x whitesmoke;
+}
+
+
+
+/* =========== HEADER =========== */
+
+header{
+    margin: 20px auto;
+    width: 1280px;
+    padding: 5px 100px ;
+    
+}
+
+header h1 a{
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+}
+
+nav ul{
+    float: right;
+    margin-top: -41px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+
+
+/* =========== CONTENT =========== */
+
+article{
+    padding: 0px 300px;
+    margin-top: -10px;
+    display: flex;
+    
+}
+
+
+#direita{
+    /* border: 1px solid red; */
+    width: 394px;
+    height: 360px;
+    display: flex;
+    background: url(../img/depoimento.png) no-repeat;
+    background-size: cover;
+}
+
+
+
+#esquerda{
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 394px;
+    height: 360px;
+    background: url(../img/museu.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0px 20px 0px 0px;
+    flex-grow: 1;
+}
+
+
+#direita-b{
+    margin-left: 60px;
+}
+
+#direita-baixo{
+    /* border: 1px solid red; */
+    width: 395px;
+    height: 180px;
+    margin-top: 20px;
+    display: flexbox;
+    background: #dbd1c3;
+}
+
+
+#direita-baixo-baixo{
+    /* border: 1px solid red; */
+    width: 395px;
+    height: 400px;
+    display: flexbox;
+    background: #e6e1da;
+}
+
+
+
+#button{
+    width: 280px;
+    height: 45px;
+    margin: 10px 0px 0px 20px;
+    background: #8a6029;
+    border: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#button:hover{
+    width: 280px;
+    height: 45px;
+    margin: 10px 0px 0px 20px;
+    border: none;
+    font-size: 20px;
+    color: whitesmoke;
+    animation: animacao2 alternate 1s 2;
+}
+
+#teste{
+    width: 1800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+#teste1{
+    width: 1800px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+#data{
+    height: 20px;
+    margin: 30px 0px 0px 40px;
+    float: left;
+    font-size: 15px;
+}
+
+#ul{
+    margin: 70px 0px 0px -90px;
+    color: #cc9041;
+}
+
+#p{
+    margin: 80px 0px 0px -450px;
+    color: #cc9041;
+    
+}
+
+
+
+
+#dataconf{
+    height: 18px;
+    width: 120px;
+}
+
+
+
+
+.esquerda-baixo{
+    /* border: 1px solid red; */
+    width: 395px;
+    height: 360px;
+    margin: 20px 0px 0px 20px;
+    display: flex;
+}
+
+
+
+#video{
+    margin: 50px 900px 10px 10px;
+    position: absolute;
+    left: 0px;
+}
+
+#mapa{
+    margin: 50px 900px 10px 10px;
+    position: absolute;
+    left: 465px; 
+}
+
+
+
+.padding1{
+    padding: 10px 0px 0px 10px;
+    color: #227115;
+
+}
+
+
+.padding2{
+    padding: 30px 0px 0px 20px;
+    color: #8a6029;
+    height: 20px;
+    
+}
+
+
+.foto{
+    width: 130px;
+    height: 130px;
+    margin: 20px;
+    background: url(../img/fundo-foto.png);
+}
+
+#fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 25px;
+    
+}
+
+.fotoDentro{
+    padding: 20px 0px 0px 17px;
+}
+
+
+hr{
+    width: 600px;
+}
+
+
+/* =========== LINKS ===========*/
+
+a:visited, a:link{
+    color: #af670a;
+}
+
+
+a:hover{
+    animation: animacao1 1s alternate 2;
+}
+
+
+
+
+
+
+
+/* =========== ANIMAÇÕES ============ */
+
+@keyframes animacao1 {
+    from{
+        color: #af670a;
+    }
+
+    to{
+        color: #227115;
+    }
+}
+
+
+@keyframes animacao2 {
+    from{
+        background: #8a6029;
+    }
+
+    to{
+        background: #cc9041;
+    }
+}
